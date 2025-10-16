@@ -78,7 +78,7 @@ export default function Home() {
         <div className="text-center">
           <h3 className="text-2xl font-extrabold md:text-3xl">We Always Have A New</h3>
           <span className="text-2xl font-extrabold md:text-3xl">Design For Your Projects</span>
-          <div className="mt-3 flex items-center justify-center gap-4 text-xs text-slate-600">
+          <div className="mt-3 flex flex-wrap items-center justify-center gap-2 px-4 text-xs text-slate-600 sm:gap-4 sm:px-0">
             <button className="rounded-full bg-slate-800 px-3 py-1 text-white">All</button>
             <button className="rounded-full px-3 py-1 hover:bg-slate-100">Graphic Design</button>
             <button className="rounded-full px-3 py-1 hover:bg-slate-100">Illustration</button>
